@@ -96,4 +96,7 @@ nmap <F3> :TagbarToggle<CR>
 let g:gitgutter_realtime = 0
 let g:gitgutter_eager = 0
 
+" vim-go
+let g:go_version_warning = 0
+
 " vim: filetype=vim
