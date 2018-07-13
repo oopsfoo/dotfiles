@@ -2,7 +2,7 @@
 
 mk_my_ws() {
     echo "[mkdir] make all custom directories..."
-    python2 -c '
+    python -c '
 import os
 for k,v in os.environ.items():
     if k.startswith("MY_WS_"):
