@@ -1,0 +1,4 @@
+#!/usr/bin/env ruby
+require 'yaml'
+alt = YAML.load(File.open("cli_alt.yaml"))
+print alt
